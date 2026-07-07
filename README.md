@@ -1,7 +1,6 @@
-### Hi, I'm Daniil 👋
+### Ku rabotyagi, I'm Daniil 👋
 
-Full-stack developer, backend-leaning — I build APIs, Telegram bots and LLM-powered tools.
-Occasionally I turn photos of clothes into 3D models.
+Full-stack developer, Solution Architect, backend-leaning — I build APIs, Telegram bots and LLM-powered tools. Bringign wide ideas to life. 
 
 <p>
   <a href="https://skillicons.dev">
