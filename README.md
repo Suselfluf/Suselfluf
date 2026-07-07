@@ -1,10 +1,11 @@
-### Ku rabotyagi, I'm Daniil 👋
+### Hi, I'm Daniil 👋
 
-Full-stack developer, Solution Architect, backend-leaning — I build APIs, Telegram bots and LLM-powered tools. Bringign wide ideas to life. 
+Full-stack developer, backend-leaning — I build APIs, Telegram bots and LLM-powered tools.
+Occasionally I turn photos of clothes into 3D models.
 
 <p>
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=ts,js,nodejs,nestjs,python,django,react,postgres,redis,docker" alt="TypeScript, JavaScript, Node.js, NestJS, Python, Django, React, PostgreSQL, Redis, Docker" />
+    <img src="https://skillicons.dev/icons?i=ts,js,nodejs,nestjs,nextjs,python,django,react,postgres,redis,docker" alt="TypeScript, JavaScript, Node.js, NestJS, Next.js, Python, Django, React, PostgreSQL, Redis, Docker" />
   </a>
 </p>
 
