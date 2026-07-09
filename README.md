@@ -1,4 +1,4 @@
-### Hi, I'm Daniil 👋
+
 
 Full-stack developer, backend-leaning — I build APIs, Telegram bots and LLM-powered tools.
 Occasionally I turn photos of clothes into 3D models.
