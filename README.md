@@ -25,6 +25,15 @@ Most of my recent work lives in private repos:
 - **tg-assistant-vectorsearch** — Telegram assistant on NestJS with vector-search retrieval
 - **hunter-minimum-quiz-bot** — Telegram bot for practicing the Russian hunting exam · SQLite, Docker
 
+#### 📈 Activity
+
+The code is private, but the commits still count:
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=Suselfluf&hide_border=true&theme=github-compact" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Suselfluf&hide_border=true&theme=minimal" alt="Contribution activity over the last year" />
+</picture>
+
 #### 📫 Reach me
 
 [![Telegram](https://img.shields.io/badge/Telegram-2CA5E0?style=flat&logo=telegram&logoColor=white)](https://t.me/tgt_nedanil_nesocio)
