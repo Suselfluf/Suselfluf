@@ -25,7 +25,23 @@ jobs:
           filename: metrics/summary.dark.svg
           base: header, repositories
           config_timezone: Europe/Moscow
-          config_theme: dark
+          extras_css: |
+            svg { color: #adbac7 }
+            h1, h2 { color: #539bf5 }
+            .field svg { fill: #768390 }
+            .calendar .day { outline-color: rgba(240,246,252,0.10) }
+            :root {
+              --color-calendar-graph-day-bg: #161b22;
+              --color-calendar-graph-day-border: rgba(240,246,252,0.10);
+              --color-calendar-graph-day-L1-bg: #0e4429;
+              --color-calendar-graph-day-L2-bg: #006d32;
+              --color-calendar-graph-day-L3-bg: #26a641;
+              --color-calendar-graph-day-L4-bg: #39d353;
+              --color-calendar-graph-day-L1-border: rgba(240,246,252,0.10);
+              --color-calendar-graph-day-L2-border: rgba(240,246,252,0.10);
+              --color-calendar-graph-day-L3-border: rgba(240,246,252,0.10);
+              --color-calendar-graph-day-L4-border: rgba(240,246,252,0.10);
+            }
           repositories_affiliations: owner, collaborator
 
       - name: Summary stats (light)
@@ -48,7 +64,23 @@ jobs:
           filename: metrics/calendar.dark.svg
           base: ""
           config_timezone: Europe/Moscow
-          config_theme: dark
+          extras_css: |
+            svg { color: #adbac7 }
+            h1, h2 { color: #539bf5 }
+            .field svg { fill: #768390 }
+            .calendar .day { outline-color: rgba(240,246,252,0.10) }
+            :root {
+              --color-calendar-graph-day-bg: #161b22;
+              --color-calendar-graph-day-border: rgba(240,246,252,0.10);
+              --color-calendar-graph-day-L1-bg: #0e4429;
+              --color-calendar-graph-day-L2-bg: #006d32;
+              --color-calendar-graph-day-L3-bg: #26a641;
+              --color-calendar-graph-day-L4-bg: #39d353;
+              --color-calendar-graph-day-L1-border: rgba(240,246,252,0.10);
+              --color-calendar-graph-day-L2-border: rgba(240,246,252,0.10);
+              --color-calendar-graph-day-L3-border: rgba(240,246,252,0.10);
+              --color-calendar-graph-day-L4-border: rgba(240,246,252,0.10);
+            }
           plugin_isocalendar: yes
           plugin_isocalendar_duration: full-year
 
