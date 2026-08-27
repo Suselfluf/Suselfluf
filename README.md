@@ -32,14 +32,7 @@ The code is private, but the commits still count:
 <p>
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="./metrics/calendar.dark.svg" />
-    <img src="./metrics/calendar.light.svg" alt="Commit calendar for the last year" width="480" />
-  </picture>
-</p>
-
-<p>
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./metrics/summary.dark.svg" />
-    <img src="./metrics/summary.light.svg" alt="Profile summary: repositories, stars, followers" width="480" />
+    <img src="./metrics/calendar.light.svg" alt="Contributions calendar for the last two years" width="480" />
   </picture>
 </p>
 
