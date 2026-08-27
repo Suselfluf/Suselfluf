@@ -1,0 +1,65 @@
+name: Metrics
+
+on:
+  schedule:
+    - cron: "0 4 * * *"
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - ".github/workflows/metrics.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  metrics:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Summary stats (dark)
+        uses: lowlighter/metrics@v3.34
+        with:
+          token: ${{ secrets.METRICS_TOKEN }}
+          committer_token: ${{ secrets.GITHUB_TOKEN }}
+          user: Suselfluf
+          filename: metrics/summary.dark.svg
+          base: header, repositories
+          config_timezone: Europe/Moscow
+          config_theme: dark
+          repositories_affiliations: owner, collaborator
+
+      - name: Summary stats (light)
+        uses: lowlighter/metrics@v3.34
+        with:
+          token: ${{ secrets.METRICS_TOKEN }}
+          committer_token: ${{ secrets.GITHUB_TOKEN }}
+          user: Suselfluf
+          filename: metrics/summary.light.svg
+          base: header, repositories
+          config_timezone: Europe/Moscow
+          repositories_affiliations: owner, collaborator
+
+      - name: Commit calendar (dark)
+        uses: lowlighter/metrics@v3.34
+        with:
+          token: ${{ secrets.METRICS_TOKEN }}
+          committer_token: ${{ secrets.GITHUB_TOKEN }}
+          user: Suselfluf
+          filename: metrics/calendar.dark.svg
+          base: ""
+          config_timezone: Europe/Moscow
+          config_theme: dark
+          plugin_isocalendar: yes
+          plugin_isocalendar_duration: full-year
+
+      - name: Commit calendar (light)
+        uses: lowlighter/metrics@v3.34
+        with:
+          token: ${{ secrets.METRICS_TOKEN }}
+          committer_token: ${{ secrets.GITHUB_TOKEN }}
+          user: Suselfluf
+          filename: metrics/calendar.light.svg
+          base: ""
+          config_timezone: Europe/Moscow
+          plugin_isocalendar: yes
+          plugin_isocalendar_duration: full-year

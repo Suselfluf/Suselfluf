@@ -29,10 +29,19 @@ Most of my recent work lives in private repos:
 
 The code is private, but the commits still count:
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=Suselfluf&hide_border=true&theme=github-compact" />
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Suselfluf&hide_border=true&theme=minimal" alt="Contribution activity over the last year" />
-</picture>
+<p>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./metrics/calendar.dark.svg" />
+    <img src="./metrics/calendar.light.svg" alt="Commit calendar for the last year" width="480" />
+  </picture>
+</p>
+
+<p>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./metrics/summary.dark.svg" />
+    <img src="./metrics/summary.light.svg" alt="Profile summary: repositories, stars, followers" width="480" />
+  </picture>
+</p>
 
 #### 📫 Reach me
 
