@@ -33,6 +33,7 @@ export class DaniilLiagin implements Developer {
 
 Most of my recent work lives in private repos:
 
+- **GetFitApp** — Telegram fitness assistant: meal logging from photos or text via Claude, macro targets, reminders and a React Mini App · aiogram, FastAPI, Langfuse
 - **wb-api** — zero-dependency TypeScript client for the Wildberries marketplace API, generated from Swagger
 - **tg-assistant-vectorsearch** — Telegram assistant on NestJS with vector-search retrieval
 - **hunter-minimum-quiz-bot** — Telegram bot for practicing the Russian hunting exam · SQLite, Docker
