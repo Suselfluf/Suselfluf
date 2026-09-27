@@ -1,7 +1,19 @@
+```ts
+/** Full-stack engineer building multi-layer applications on top of LLMs. Spec-driven. */
+@Injectable()
+export class DaniilLiagin implements Developer {
+  readonly role = 'Solution Architect · Full-stack';
+  readonly now = { company: 'Neural Language Technologies', since: '2023-12' };
+  readonly focus = ['LLM applications', 'multi-agent systems', 'APIs', 'Telegram bots'];
+  readonly sideQuest = 'turning photos of clothes into 3D models';
 
+  learn(): never {
+    while (true) {}
+  }
+}
+```
 
-Full-stack developer, backend-leaning — I build APIs, Telegram bots and LLM-powered tools.
-Occasionally I turn photos of clothes into 3D models.
+**[→ Full CV: suselfluf.github.io](https://suselfluf.github.io)**
 
 <p>
   <a href="https://skillicons.dev">
