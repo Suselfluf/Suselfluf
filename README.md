@@ -36,6 +36,7 @@ Most of my recent work lives in private repos:
 - **GetFitApp** — Telegram fitness assistant: meal logging from photos or text via Claude, macro targets, reminders and a React Mini App · aiogram, FastAPI, Langfuse
 - **wb-api** — zero-dependency TypeScript client for the Wildberries marketplace API, generated from Swagger
 - **tg-assistant-vectorsearch** — Telegram assistant on NestJS with vector-search retrieval
+- **gpu-server** — self-hosted LLM server on a home RTX 4080 Super: FastAPI gateway with per-client keys in front of llama-swap/llama.cpp, live GPU/VRAM/energy dashboard, GNOME top-bar indicator · Python, systemd
 - **hunter-minimum-quiz-bot** — Telegram bot for practicing the Russian hunting exam · SQLite, Docker
 
 #### 📈 Activity
